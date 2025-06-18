@@ -1,0 +1,10 @@
+[
+  {
+    "title": "Space tourism website",
+    "description": "Web app for visualizing personalized Spotify data...",
+    "image": "../../public/assets/projects/Space tourism website.png",
+    "tech": ["React", "Express", "Spotify API", "Heroku"],
+    "github": "https://github.com/marynamln/Space-tourism-website.git",
+    "demo": "https://wonderful-brioche-2e1dfa.netlify.app/"
+  }
+]
