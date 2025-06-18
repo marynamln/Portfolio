@@ -12,6 +12,15 @@
     border-radius: 50%;
 }
 
+.about-photo {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    box-shadow: 
+    0 4px 6px rgba(0, 0, 0, 0.1),
+    inset 0 1px 0 rgba(255, 255, 255, 0.1);
+}
+
 .about-tx {
     display: flex;
     flex-direction: column;
@@ -31,7 +40,7 @@
     font-family: $font-heading;
     text-transform: uppercase;
     font-size: $fs-base;
-    color: $color-muted;
+    color: $color-text;
     font-weight: 600;
     box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3);
     border-top: 1px solid rgba(255, 255, 255, 0.5);

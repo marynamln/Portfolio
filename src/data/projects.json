@@ -1,11 +1,10 @@
 [
   {
-    "title": "Space tourism website",
+    "title": "Portfolio website",
     "description": "Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapien vitae pellentesque sem placerat. In id cursus mi pretium tellus duis convallis. Tempus leo eu aenean sed diam urna tempor.",
-    "image": "../../public/assets/projects/Space tourism website.png",
+    "image": "../../public/assets/projects/Portfolio.png",
     "tech": ["React", "HTML", "CSS"],
-    "github": "https://github.com/marynamln/Space-tourism-website.git",
-    "demo": "https://wonderful-brioche-2e1dfa.netlify.app/"
+    "github": "https://github.com/marynamln/Portfolio.git"
   },
   {
     "title": "Space tourism website",
@@ -16,27 +15,56 @@
     "demo": "https://wonderful-brioche-2e1dfa.netlify.app/"
   },
   {
-    "title": "Space tourism website",
+    "title": "Easybank landing page",
     "description": "Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapien vitae pellentesque sem placerat. In id cursus mi pretium tellus duis convallis. Tempus leo eu aenean sed diam urna tempor.",
-    "image": "../../public/assets/projects/Space tourism website.png",
+    "image": "../../public/assets/projects/Easybank landing page.png",
     "tech": ["React", "HTML", "CSS"],
-    "github": "https://github.com/marynamln/Space-tourism-website.git",
-    "demo": "https://wonderful-brioche-2e1dfa.netlify.app/"
+    "github": "https://github.com/marynamln/Bank-landing-page.git",
+    "demo": "https://gilded-crepe-3afb9a.netlify.app/"
   },
   {
-    "title": "Space tourism website",
+    "title": "Restaurant website",
     "description": "Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapien vitae pellentesque sem placerat. In id cursus mi pretium tellus duis convallis. Tempus leo eu aenean sed diam urna tempor.",
-    "image": "../../public/assets/projects/Space tourism website.png",
+    "image": "../../public/assets/projects/Restaurant website.png",
     "tech": ["React", "HTML", "CSS"],
-    "github": "https://github.com/marynamln/Space-tourism-website.git",
-    "demo": "https://wonderful-brioche-2e1dfa.netlify.app/"
+    "github": "https://github.com/marynamln/Course-work.git",
+    "demo": "https://lucky-toffee-128945.netlify.app/"
   },
   {
-    "title": "Space tourism website",
+    "title": "Product list with cart",
     "description": "Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapien vitae pellentesque sem placerat. In id cursus mi pretium tellus duis convallis. Tempus leo eu aenean sed diam urna tempor.",
-    "image": "../../public/assets/projects/Space tourism website.png",
+    "image": "../../public/assets/projects/Product list with cart.png",
     "tech": ["React", "HTML", "CSS"],
-    "github": "https://github.com/marynamln/Space-tourism-website.git",
-    "demo": "https://wonderful-brioche-2e1dfa.netlify.app/"
+    "github": "https://github.com/marynamln/Product-list-with-cart.git",
+    "demo": "https://incandescent-entremet-a89bfe.netlify.app/"
+  },
+  {
+    "title": "Teachinder",
+    "description": "Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapien vitae pellentesque sem placerat. In id cursus mi pretium tellus duis convallis. Tempus leo eu aenean sed diam urna tempor.",
+    "image": "../../public/assets/projects/Teachinder.png",
+    "tech": ["React", "HTML", "CSS"],
+    "github": "https://github.com/marynamln/Teachinder.git"
+  },
+  {
+    "title": "Spammer",
+    "description": "Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapien vitae pellentesque sem placerat. In id cursus mi pretium tellus duis convallis. Tempus leo eu aenean sed diam urna tempor.",
+    "image": "../../public/assets/projects/Spammer.png",
+    "tech": ["React", "HTML", "CSS"],
+    "github": "https://github.com/marynamln/Spammer.git"
+  },
+  {
+    "title": "Fat-client",
+    "description": "Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapien vitae pellentesque sem placerat. In id cursus mi pretium tellus duis convallis. Tempus leo eu aenean sed diam urna tempor.",
+    "image": "../../public/assets/projects/Fat-client.png",
+    "tech": ["React", "HTML", "CSS"],
+    "github": "https://github.com/marynamln/Fat-client.git"
+  },
+  {
+    "title": "Simple weather app",
+    "description": "Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapien vitae pellentesque sem placerat. In id cursus mi pretium tellus duis convallis. Tempus leo eu aenean sed diam urna tempor.",
+    "image": "../../public/assets/projects/Simple weather app.png",
+    "tech": ["React", "HTML", "CSS"],
+    "github": "https://github.com/marynamln/Weather-app.git",
+    "demo": "https://resplendent-semolina-d8d761.netlify.app/"
   }
 ]

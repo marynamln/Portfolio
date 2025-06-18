@@ -1,6 +1,34 @@
 .contacts {
     display: flex;
+    flex-direction: column;
+    gap: 48px;
     width: 75%;
     margin: 0 auto;
     padding-top: 128px;
+}
+
+.contacts-section {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.sm-section {
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+    padding-top: 12px;
+}
+
+.sm-link {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 12px;
+    color: $color-text;
+}
+
+.sm-link svg {
+    height: 32px;
+    width: auto;
 }
