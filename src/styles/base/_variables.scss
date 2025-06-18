@@ -1,0 +1,29 @@
+// Typography
+$font-heading: 'Poppins', sans-serif;
+$font-body: 'Work Sans', sans-serif;
+
+// Font sizes
+$fs-lg: 64px;
+$fs-md: 32px;
+$fs-nm: 28px;
+$fs-base: 18px;
+$fs-sm: 14px;
+
+// Colors
+$color-heading: #3B0A2A;
+$color-text: #4A3F55;
+$color-muted: #786B7C;
+$background-color: rgb(239, 175, 186, 0.3);
+$color-light-pink: rgb(255, 222, 239);
+$color-white: rgb(254, 237, 245);
+
+// Background
+$gradient-bg: radial-gradient(
+  circle farthest-corner at 10% 20%,
+  rgba(255, 222, 239, 1) 0%,
+  rgba(254, 237, 245, 1) 48.5%,
+  rgba(239, 175, 186, 0.5) 100.2%
+);
+
+// border-radius
+$border-radius: 48px;
