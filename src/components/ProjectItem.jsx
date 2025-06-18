@@ -14,7 +14,7 @@ function ProjectItem({item}) {
             <div className='pr-tx-section'>
                 <h3>{item.title}</h3>
                 {item.demo && 
-                    <a className='pr-link-demo' href={item.demo} target="_blank">Live demo</a>
+                    <a className='pr-link-demo' href={item.demo} target="_blank">Live demo 🡥</a>
                 }
                 <p className='pr-description'>
                     {item.description}

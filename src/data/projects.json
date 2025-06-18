@@ -1,9 +1,41 @@
 [
   {
     "title": "Space tourism website",
-    "description": "Web app for visualizing personalized Spotify data...",
+    "description": "Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapien vitae pellentesque sem placerat. In id cursus mi pretium tellus duis convallis. Tempus leo eu aenean sed diam urna tempor.",
     "image": "../../public/assets/projects/Space tourism website.png",
-    "tech": ["React", "Express", "Spotify API", "Heroku"],
+    "tech": ["React", "HTML", "CSS"],
+    "github": "https://github.com/marynamln/Space-tourism-website.git",
+    "demo": "https://wonderful-brioche-2e1dfa.netlify.app/"
+  },
+  {
+    "title": "Space tourism website",
+    "description": "Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapien vitae pellentesque sem placerat. In id cursus mi pretium tellus duis convallis. Tempus leo eu aenean sed diam urna tempor.",
+    "image": "../../public/assets/projects/Space tourism website.png",
+    "tech": ["React", "HTML", "CSS"],
+    "github": "https://github.com/marynamln/Space-tourism-website.git",
+    "demo": "https://wonderful-brioche-2e1dfa.netlify.app/"
+  },
+  {
+    "title": "Space tourism website",
+    "description": "Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapien vitae pellentesque sem placerat. In id cursus mi pretium tellus duis convallis. Tempus leo eu aenean sed diam urna tempor.",
+    "image": "../../public/assets/projects/Space tourism website.png",
+    "tech": ["React", "HTML", "CSS"],
+    "github": "https://github.com/marynamln/Space-tourism-website.git",
+    "demo": "https://wonderful-brioche-2e1dfa.netlify.app/"
+  },
+  {
+    "title": "Space tourism website",
+    "description": "Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapien vitae pellentesque sem placerat. In id cursus mi pretium tellus duis convallis. Tempus leo eu aenean sed diam urna tempor.",
+    "image": "../../public/assets/projects/Space tourism website.png",
+    "tech": ["React", "HTML", "CSS"],
+    "github": "https://github.com/marynamln/Space-tourism-website.git",
+    "demo": "https://wonderful-brioche-2e1dfa.netlify.app/"
+  },
+  {
+    "title": "Space tourism website",
+    "description": "Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapien vitae pellentesque sem placerat. In id cursus mi pretium tellus duis convallis. Tempus leo eu aenean sed diam urna tempor.",
+    "image": "../../public/assets/projects/Space tourism website.png",
+    "tech": ["React", "HTML", "CSS"],
     "github": "https://github.com/marynamln/Space-tourism-website.git",
     "demo": "https://wonderful-brioche-2e1dfa.netlify.app/"
   }

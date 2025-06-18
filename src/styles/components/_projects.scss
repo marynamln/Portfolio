@@ -1,6 +1,19 @@
 .projects {
     display: flex;
+    flex-direction: column;
+    gap: 48px;
     width: 75%;
     margin: 0 auto;
     padding-top: 128px;
+}
+
+.pr-items {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 64px;
+    column-gap: 48px;
+
+    @media (max-width: 1024px) {
+        grid-template-columns: repeat(1, 1fr);
+    }
 }
