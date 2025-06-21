@@ -39,3 +39,15 @@ html {
 section {
   scroll-margin-top: 96px;
 }
+
+body::-webkit-scrollbar {
+  width: 4px;
+}
+
+body::-webkit-scrollbar-thumb {
+  background: $color-heading;
+}
+
+body::-webkit-scrollbar-track {
+  background: $background-color;
+}
