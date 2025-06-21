@@ -1,8 +1,8 @@
 @import './variables';
 
 body {
-    background: $gradient-bg;
-    padding: 148px 0;
+  background: $gradient-bg;
+  padding: 196px 0 32px 0;
 }
 
 h1 {
@@ -28,6 +28,14 @@ p {
 }
 
 a:hover, button:hover {
-    cursor: pointer;
-    color: $color-heading;
+  cursor: pointer;
+  color: $color-heading;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+section {
+  scroll-margin-top: 96px;
 }

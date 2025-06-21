@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import '../App.scss'
-import photo from '../../public/assets/photo.JPG'
+import photo from '/assets/photo.JPG'
 
 function About() {
 

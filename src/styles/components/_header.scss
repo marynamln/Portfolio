@@ -22,3 +22,7 @@ a {
     font-size: $fs-base;
     font-family: $font-body;
 }
+
+a.active {
+    color: $color-heading;
+}
