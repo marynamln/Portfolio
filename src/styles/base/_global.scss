@@ -76,3 +76,25 @@ body::-webkit-scrollbar-track {
 section {
   box-shadow: 0 8px 6px -6px rgba(0, 0, 0, 0.1);
 }
+
+@media (max-width: 768px) {
+  #about, #skills, #projects, #contacts {
+    width: 90%;
+    align-items: center;
+  }
+
+  body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 100px 0 32px 0;
+  }
+
+  h1 {
+    font-size: 48px;
+  }
+
+  h3 {
+    font-size: $fs-nm;
+  }
+}

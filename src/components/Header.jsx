@@ -37,7 +37,24 @@ function Header() {
 
   const sectionIds = ['about', 'skills', 'projects', 'contacts'];
   const activeSection = useActiveSection(sectionIds);
+  const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
+  const handleSectionClick = (id) => {
+    const element = document.getElementById(id);
+    if (element) {
+      element.scrollIntoView({ behavior: 'smooth' });
+    }
+    setIsMobileMenuOpen(false);
+  };
+
+  const toggleMobileMenu = () => {
+    setIsMobileMenuOpen(!isMobileMenuOpen);
+  };
+
+  const closeMobileMenu = () => {
+    setIsMobileMenuOpen(false);
+  };
+  
   return (
     <>
       <nav className="nav-menu">
@@ -51,6 +68,38 @@ function Header() {
           </a>
         ))}
       </nav>
+
+      <div className="mobile-menu">
+        <div className="mobile-menu-header" onClick={toggleMobileMenu}>
+          <span className="active-section-name">
+            {isMobileMenuOpen ? 'Menu' : activeSection.charAt(0).toUpperCase() + activeSection.slice(1) }
+          </span>
+          {isMobileMenuOpen ? 
+            <div className="menu-icon" onClick={closeMobileMenu}>
+              ✕
+            </div> 
+            :
+            <span className="menu-icon">☰</span>
+          }
+        </div>
+
+        <div className={`mobile-menu-dropdown ${isMobileMenuOpen ? 'open' : 'closed'}`}>
+          {sectionIds.map(id => (
+            <a
+              key={id}
+              href={`#${id}`}
+              className={`mobile-menu-item ${activeSection === id ? 'active' : ''}`}
+              onClick={(e) => {
+                e.preventDefault();
+                handleSectionClick(id);
+              }}
+            >
+              {id.charAt(0).toUpperCase() + id.slice(1)}
+            </a>
+          ))}
+        </div>
+
+      </div>
     </>
   )
 }

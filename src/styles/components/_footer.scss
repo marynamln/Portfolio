@@ -8,3 +8,10 @@
     margin: 0 auto;
     padding-top: 64px;
 }
+
+@media (max-width: 768px) {
+  .footer {
+    width: 90%;
+    text-align: center;
+  }
+}

@@ -32,3 +32,11 @@
     height: 32px;
     width: auto;
 }
+
+@media (max-width: 768px) {
+  .sm-section, .contacts-section {
+    align-items: center;
+    justify-content: center;
+  }
+
+}

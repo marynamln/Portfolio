@@ -26,3 +26,77 @@ a {
 a.active {
     color: $color-heading;
 }
+
+.mobile-menu {
+    display: none;
+}
+
+@media (max-width: 768px) {
+  .nav-menu {
+    display: none;
+  }
+
+  .mobile-menu {
+    position: fixed;
+    top: 16px;
+    left: 0;
+    right: 0;
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    border-radius: $border-radius;
+    overflow: hidden;
+    backdrop-filter: blur(20px);
+    background-color: $background-color;
+    z-index: 1000;
+  }
+
+  .mobile-menu-header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 16px 32px;
+    box-shadow: 0 8px 6px -6px rgba(0, 0, 0, 0.1);
+  }
+
+  span {
+    color: $color-heading;
+    font-size: $fs-base;
+    font-family: $font-body;
+  }
+
+  .menu-icon {
+    font-size: $fs-nm;
+  }
+
+  .mobile-menu-dropdown {
+    display: flex;
+    flex-direction: column;
+    padding: 32px;
+    gap: 16px;
+  }
+
+  .mobile-menu-dropdown {
+    max-height: 0;
+    opacity: 0;
+    transform: scaleY(0.95);
+    transition: all 0.5s ease;
+    overflow: hidden;
+    padding: 0 32px;
+    gap: 0;
+    pointer-events: none;
+  }
+
+  .mobile-menu-dropdown.open {
+    max-height: 500px;
+    opacity: 1;
+    transform: scaleY(1);
+    padding: 32px;
+    gap: 16px;
+    pointer-events: auto;
+  }
+
+}
