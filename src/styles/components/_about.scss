@@ -33,17 +33,13 @@
     line-height: 1.5;
 }
 
-.more-btn {
-    width: fit-content;
-    background-color: $background-color;
-    border-radius: $border-radius;
-    padding: 16px 48px;
-    font-family: $font-heading;
-    text-transform: uppercase;
-    font-size: $fs-base;
-    color: $color-text;
-    font-weight: 600;
-    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3);
-    border-top: 1px solid rgba(255, 255, 255, 0.5);
-    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+
+.about-photo {
+  transition: transform 0.5s ease, box-shadow 0.5s ease;
+
+  &:hover {
+    transform: scale(1.03);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+  }
 }
