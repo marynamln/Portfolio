@@ -45,7 +45,7 @@ function Skills() {
                         <li>Git, GitHub</li>
                         <li>Postman</li>
                         <li>VS Code / WebStorm</li>
-                        <li>Netlify / Vercel</li>
+                        <li>Netlify</li>
                         <li>npm, Vite</li>
                     </ul>
                 </div>

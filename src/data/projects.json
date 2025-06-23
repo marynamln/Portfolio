@@ -4,7 +4,8 @@
     "description": "A personal portfolio of a web developer implemented as a SPA in React with a focus on clean design. Contains responsive sections with brief information about herself, technical skills, a list of projects with a brief description and links, and contact information.",
     "image": "/assets/projects/Portfolio.png",
     "tech": ["React", "HTML", "CSS / SCSS", "JavaScript", "Responsive Design", "SPA", "Animation"],
-    "github": "https://github.com/marynamln/Portfolio.git"
+    "github": "https://github.com/marynamln/Portfolio.git",
+    "demo": "https://splendid-otter-e44b02.netlify.app/"
   },
   {
     "title": "Space tourism website",
