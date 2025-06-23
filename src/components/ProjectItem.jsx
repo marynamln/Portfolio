@@ -15,9 +15,9 @@ function ProjectItem({item}) {
                 <h3>{item.title}</h3>
                 <div className='pr-links'>
                     {item.demo && 
-                        <a className='pr-link-demo' href={item.demo} target="_blank">Live demo 🡥</a>
+                        <a className='pr-link-demo' href={item.demo} target="_blank" onClick={(e) => e.stopPropagation()}>Live demo 🡥</a>
                     }
-                    <a className='pr-link-demo' href={item.github} target="_blank">GitHub 🡥</a>
+                    <a className='pr-link-demo' href={item.github} target="_blank" onClick={(e) => e.stopPropagation()}>GitHub 🡥</a>
                 </div>
                     
                 <p className='pr-description'>
