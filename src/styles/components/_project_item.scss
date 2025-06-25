@@ -62,6 +62,12 @@
 @media (max-width: 768px) {
   .pr-item {
     flex-direction: column;
+    transition: none;
+
+    &:hover {
+      transform: none;
+      box-shadow: none;
+    }
   }
 
   .pr-ph-section {

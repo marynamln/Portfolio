@@ -97,4 +97,8 @@ section {
   h3 {
     font-size: $fs-nm;
   }
+
+  a::after {
+    display: none;
+  }
 }
